@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio</title>
+    <meta name="description" content="Ceci est mon portfolio étudiant" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Youssef EL BAZ</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#experience" class="nav-link">Formations</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="slider" id="home">
+        <div class="slider-background-overlay"></div>
+        <div class="slider-content">
+            <div class="hero-image">
+                <div class="profile-image">
+                    <div class="profile-placeholder">
+                        <img src="img/myphoto.jpg.jpg" alt="Photo de Youssef EL BAZ" class="profile-photo">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1>Youssef EL BAZ</h1>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <!-- Astronomical effects moved to body background -->
+        </div>
+    </div>
+    
+    <div class="section" id="about">
+        <div class="boxed">
+            <div class="about-content">
+                <h2 class="text-center">À propos de moi</h2>
+                <div class="about-card">
+                    <div class="about-text">
+                        <p class="lead">Étudiant en MSc Informatique à Epitech Paris</p>
+                        <p>Actuellement en Master of Science en Informatique à Epitech Paris (2025-2028), je développe mes compétences en développement logiciel, architecture informatique, gestion de projets et innovation digitale à travers une pédagogie axée sur la pratique et les projets concrets.</p>
+                        <p>Passionné par la technologie, le développement web et la création de solutions innovantes, j'apprends à travailler en équipe, à gérer des projets et à m'adapter rapidement aux nouvelles technologies. Mon parcours académique inclut une licence en Études Anglaises, ce qui enrichit ma perspective créative et ma capacité à communiquer efficacement en plusieurs langues (Français C1, Anglais C2, Arabe natif).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="skills">
+        <div class="boxed text-center">
+            <h2>Découvrez mes compétences</h2>
+            
+            <!-- Web Technologies -->
+            <div class="skill-category">
+                <h3 class="category-title">Technologies Web</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon html-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>HTML</h3>
+                        <p>Maîtrise du langage de balisage pour structurer le contenu web</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon css-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>CSS</h3>
+                        <p>Stylisation et mise en page responsive des interfaces utilisateur</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon js-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Programmation interactive et dynamique côté client</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h3 class="category-title">Langages de Programmation</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon typescript-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>TypeScript</h3>
+                        <p>Langage de programmation typé basé sur JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon php-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>PHP</h3>
+                        <p>Langage de programmation serveur pour le développement web</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon java-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Java</h3>
+                        <p>Langage de programmation orienté objet et multiplateforme</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon python-icon">
+                            <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                    <stop offset="0" stop-color="#5A9FD4"/>
+                                    <stop offset="1" stop-color="#306998"/>
+                                </linearGradient>
+                                <linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                    <stop offset="0" stop-color="#FFD43B"/>
+                                    <stop offset="1" stop-color="#FFE873"/>
+                                </linearGradient>
+                                <path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v10.644h24.693v3.209H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.339 5.947 12.521 13.123 12.521h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.654-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"/>
+                                <path fill="url(#python-original-b)" d="M91.682 28.38v10.644c0 8.151-7.052 15.34-15.426 15.34H51.591c-6.866 0-12.346 5.654-12.346 12.548v23.398c0 6.693 5.654 11.72 12.346 12.837 4.222.706 8.645 1.027 12.866 1.008 4.222-.02 8.252-.379 11.8-1.007 10.45-1.846 12.346-5.71 12.346-12.837V67.234h-24.693v-3.209h39.123c7.176 0 13.46-4.313 15.426-12.521 2.268-9.405 2.368-15.275 0-25.096-1.755-7.339-5.947-12.521-13.123-12.521H91.682zm-18.645 81.93c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"/>
+                            </svg>
+                        </div>
+                        <h3>Python</h3>
+                        <p>Langage de programmation polyvalent et facile à apprendre</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon rust-icon">
+                            <img src="http://rust-lang.org/logos/rust-logo-blk.svg" alt="Rust" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Rust</h3>
+                        <p>Langage de programmation système moderne et sécurisé</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frameworks & Runtime -->
+            <div class="skill-category">
+                <h3 class="category-title">Frameworks & Runtime</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon nodejs-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Node.js</h3>
+                        <p>Environnement d'exécution JavaScript côté serveur</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon express-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Express</h3>
+                        <p>Framework web minimaliste et flexible pour Node.js</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill-category">
+                <h3 class="category-title">Bases de Données</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon mysql-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>MySQL</h3>
+                        <p>Système de gestion de base de données relationnelle</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon postgresql-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>PostgreSQL</h3>
+                        <p>Système de gestion de base de données relationnelle avancé</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon mongodb-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>MongoDB</h3>
+                        <p>Base de données NoSQL orientée documents</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DevOps & Tools -->
+            <div class="skill-category">
+                <h3 class="category-title">DevOps & Outils</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon docker-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" alt="Docker" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Docker</h3>
+                        <p>Plateforme de conteneurisation pour le déploiement d'applications</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon jenkins-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>Jenkins</h3>
+                        <p>Serveur d'automatisation pour l'intégration et le déploiement continus</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon git-icon">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg';">
+                        </div>
+                        <h3>Git / GitHub</h3>
+                        <p>Système de contrôle de version distribué et plateforme d'hébergement de code</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development Tools & IDEs -->
+            <div class="skill-category">
+                <h3 class="category-title">Outils de Développement & IDE</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon vscode-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>VS Code</h3>
+                        <p>Éditeur de code source polyvalent et extensible</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon cursor-icon">
+                            <img src="https://cursor.sh/favicon.ico" alt="Cursor" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjAiIGZpbGw9InVybCgjZ3JhZGllbnQwX2xpbmVhcl8xXzEpIi8+CjxwYXRoIGQ9Ik0yMCAyMEwyMCAxMDBMNDAgODBMNjAgMTAwTDYwIDQwTDIwIDIwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTM1IDUwUTM1IDQwIDQ1IDQwUTU1IDQwIDU1IDUwUTU1IDYwIDQ1IDYwUTM1IDYwIDM1IDUwIiBzdHJva2U9IiM2NjdlZWEiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWxsPSJub25lIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9saW5lYXJfMV8xIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzY2N2VlYTtzdG9wLW9wYWNpdHk6MSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NjRiYTI7c3RvcC1vcGFjaXR5OjEiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K';">
+                        </div>
+                        <h3>Cursor</h3>
+                        <p>Éditeur de code avec intelligence artificielle intégrée</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon pycharm-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" alt="PyCharm" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>PyCharm</h3>
+                        <p>IDE spécialisé pour le développement Python</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon putty-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/putty/putty-original.svg" alt="PuTTY" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>PuTTY</h3>
+                        <p>Client SSH et Telnet pour connexions sécurisées</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virtualization & Systems -->
+            <div class="skill-category">
+                <h3 class="category-title">Virtualisation & Systèmes</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon wsl-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" alt="WSL" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>WSL</h3>
+                        <p>Windows Subsystem for Linux - Environnement Linux sur Windows</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon powershell-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" alt="PowerShell" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <h3>PowerShell</h3>
+                        <p>Shell et langage de script pour l'automatisation Windows</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon vmware-icon">
+                            <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="128" height="128" rx="20" fill="#607078"/>
+                                <text x="64" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="1px">VMware</text>
+                            </svg>
+                        </div>
+                        <h3>VMware Workstation</h3>
+                        <p>Plateforme de virtualisation pour machines virtuelles</p>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon virtualbox-icon">
+                            <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="vboxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#1A2E3F;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#0F1F2E;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="128" height="128" rx="20" fill="url(#vboxBg)"/>
+                                <!-- Oracle VirtualBox logo - interlocking V shapes -->
+                                <g transform="translate(64, 64)">
+                                    <!-- Cyan/Teal shape - left side -->
+                                    <path d="M-22 -22 L-8 -22 L-8 -8 L-22 8 L-22 -22 Z" fill="#00B8E6"/>
+                                    <path d="M-22 8 L-8 8 L-8 22 L-22 22 L-22 8 Z" fill="#00B8E6"/>
+                                    <!-- Orange shape - right side -->
+                                    <path d="M8 -22 L22 -22 L22 8 L8 -8 L8 -22 Z" fill="#FF6B00"/>
+                                    <path d="M8 8 L22 8 L22 22 L8 22 L8 8 Z" fill="#FF6B00"/>
+                                    <!-- Center connection -->
+                                    <path d="M-8 -8 L8 -8 L8 8 L-8 8 Z" fill="#1A2E3F"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Oracle VirtualBox</h3>
+                        <p>Solution de virtualisation open-source multiplateforme</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Network Tools -->
+            <div class="skill-category">
+                <h3 class="category-title">Outils Réseau</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon cisco-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg" alt="Cisco Packet Tracer" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cisco/cisco-plain-wordmark.svg';">
+                        </div>
+                        <h3>Cisco Packet Tracer</h3>
+                        <p>Simulateur réseau pour la conception et le test de topologies</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Tools -->
+            <div class="skill-category">
+                <h3 class="category-title">Outils de Design</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <div class="skill-icon tiled-icon">
+                            <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="10" width="40" height="40" fill="#667eea" rx="5"/>
+                                <rect x="60" y="10" width="40" height="40" fill="#764ba2" rx="5"/>
+                                <rect x="10" y="60" width="40" height="40" fill="#764ba2" rx="5"/>
+                                <rect x="60" y="60" width="40" height="40" fill="#667eea" rx="5"/>
+                                <path d="M30 30 L50 30 L50 50 L30 50 Z" fill="white" opacity="0.3"/>
+                                <path d="M80 30 L100 30 L100 50 L80 50 Z" fill="white" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3>Tiled</h3>
+                        <p>Éditeur de cartes pour jeux 2D et applications</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category">
+                <h3 class="category-title">Compétences Transversales</h3>
+                <div class="soft-skills-container">
+                    <div class="soft-skill-tag">Sens du service</div>
+                    <div class="soft-skill-tag">Bon sens relationnel</div>
+                    <div class="soft-skill-tag">Disponibilité</div>
+                    <div class="soft-skill-tag">Communication</div>
+                    <div class="soft-skill-tag">Adaptabilité</div>
+                    <div class="soft-skill-tag">Gestion du temps</div>
+                    <div class="soft-skill-tag">Gestion des priorités</div>
+                    <div class="soft-skill-tag">Autonomie</div>
+                    <div class="soft-skill-tag">Rigueur</div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="skill-category">
+                <h3 class="category-title">Langues</h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <div class="language-name">Français</div>
+                        <div class="language-level">Courant (C1)</div>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">Anglais</div>
+                        <div class="language-level">Courant (C2)</div>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">Arabe</div>
+                        <div class="language-level">Natif</div>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="projects">
+        <div class="boxed">
+            <h2 class="text-center">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Jobhub</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jobhub - Plateforme d'Emploi</h3>
+                        <p>Développement d'une plateforme complète de recherche d'emploi avec authentification utilisateur, gestion des profils et système de matching entre candidats et employeurs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Portfolio</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Site Web Portfolio</h3>
+                        <p>Développement d'un portfolio personnel responsive avec navigation fluide, animations et design moderne pour présenter mes compétences et projets.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">EPIGAMES</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>EPIGAMES — 2D RPG Adventure</h3>
+                        <p>Jeu de rôle 2D complet développé en Java avec système de combat, quêtes, interactions NPC, et architecture orientée objet. Démonstration des quatre piliers de la POO dans un contexte de développement de jeu.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Java Swing</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">JUnit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Messenger</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chat Application Backend</h3>
+                        <p>Système d'authentification complet avec backend Rust/Axum et frontend Next.js. Architecture modulaire avec JWT, PostgreSQL, et gestion d'erreurs robuste. Séparation claire des responsabilités et API RESTful.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Rust</span>
+                            <span class="tech-tag">Axum</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="experience">
+        <div class="boxed">
+            <h2 class="text-center">Expériences & Formations</h2>
+            
+            <!-- Education -->
+            <div class="experience-section">
+                <h3 class="experience-section-title">Formations</h3>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>MSc Informatique</h3>
+                        <span class="experience-company">Epitech Paris</span>
+                        <span class="experience-date experience-in-progress">Septembre 2025 - Juin 2028 • En cours</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Projets et compétences développés : développement logiciel, architecture informatique, gestion de projets, innovation digitale</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>AWS Certified Solutions Architect - Associate</h3>
+                        <span class="experience-company">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" class="company-logo" onerror="this.style.display='none'">
+                            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy" class="company-logo" onerror="this.style.display='none'">
+                            Udemy
+                        </span>
+                        <span class="experience-date experience-in-progress">En cours</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Formation en cours pour la certification AWS Solutions Architect - Associate. Acquisition de compétences en : services AWS et technologies cloud, conception d'architectures sécurisées et robustes, design de systèmes distribués scalables, résilients, efficaces et tolérants aux pannes, principes de conception architecturale basés sur les besoins clients.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>CCNA - Implementing and Administering Cisco Solutions</h3>
+                        <span class="experience-company">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg" alt="Cisco" class="company-logo" onerror="this.style.display='none'">
+                            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy" class="company-logo" onerror="this.style.display='none'">
+                            Udemy
+                        </span>
+                        <span class="experience-date experience-in-progress">En cours</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Formation en cours pour la certification Cisco CCNA. Acquisition de connaissances et compétences en : fondamentaux réseau, accès réseau, connectivité IP, services IP, principes de sécurité, et automatisation et programmabilité.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Test de connaissance du français (TCF)</h3>
+                        <span class="experience-company">Institut Français de Marrakech</span>
+                        <span class="experience-date">Juillet 2024</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Niveau C1 - Tout public</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Licence : Études Anglaises</h3>
+                        <span class="experience-company">Faculté des lettres et sciences Humaines, Marrakech</span>
+                        <span class="experience-date">2017 - 2020</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Baccalauréat : Sciences de la vie et de la terre</h3>
+                        <span class="experience-company">Lycée Hassan II, Marrakech</span>
+                        <span class="experience-date">2016 - 2017</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Experience -->
+            <div class="experience-section">
+                <h3 class="experience-section-title">Expériences Professionnelles</h3>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Gestionnaire de stocks</h3>
+                        <span class="experience-company">Es saadi Marrakech Resort</span>
+                        <span class="experience-date">Juillet 2017 - Septembre 2017</span>
+                    </div>
+                    <div class="experience-content">
+                        <ul class="experience-list">
+                            <li>Supervision du personnel responsable du rangement, du conditionnement et de l'expédition des marchandises</li>
+                            <li>Optimisation de l'espace d'entreposage pour faciliter les opérations de stockage et de retrait</li>
+                            <li>Réception des livraisons, contrôle de la conformité, de la quantité et de l'état des produits</li>
+                            <li>Organisation et suivi des commandes de marchandises auprès des fournisseurs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <div class="boxed text-center">
+            <h2>Contactez-moi</h2>
+            <p class="contact-intro">Intéressé par mon profil ? N'hésitez pas à me contacter !</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p>youssefelbaz123@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 Téléphone</h3>
+                    <p>(+33) 6 32 58 85 96</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Localisation</h3>
+                    <p>Paris, France</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/youssef-el-baz-4b1496389/" class="social-link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Youssef-el-baz" class="social-link" target="_blank">GitHub</a>
+                <a href="mailto:youssef.elbaz36@gmail.com" class="social-link">Email Direct</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
