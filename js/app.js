@@ -1,17 +1,48 @@
-//Mobile menu toggle
+//Mobile menu toggle avec améliorations
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
+const body = document.body;
 
-hamburger.addEventListener('click', () => {
+// Toggle menu
+hamburger.addEventListener('click', (e) => {
+    e.stopPropagation();
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    
+    // Empêcher le scroll du body quand le menu est ouvert
+    if (navMenu.classList.contains('active')) {
+        body.style.overflow = 'hidden';
+    } else {
+        body.style.overflow = '';
+    }
 });
 
 //Close mobile menu when clicking on a link
 document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
+    body.style.overflow = '';
 }));
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (navMenu.classList.contains('active') && 
+        !navMenu.contains(e.target) && 
+        !hamburger.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        body.style.overflow = '';
+    }
+});
+
+// Close menu on window resize if it becomes desktop size
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        body.style.overflow = '';
+    }
+});
 
 //Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

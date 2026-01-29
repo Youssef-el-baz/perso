@@ -1,0 +1,23 @@
+Commandes Git pour pousser vers perso.git :
+
+cd portfolio
+
+# Initialiser git si nécessaire
+git init
+
+# Configurer le remote perso
+git remote remove perso 2>/dev/null || true
+git remote add perso git@github.com:Youssef-el-baz/perso.git
+
+# Ajouter tous les fichiers
+git add .
+
+# Créer un commit
+git commit -m "Update portfolio: responsive design improvements for mobile and tablet"
+
+# S'assurer qu'on est sur la branche main
+git branch -M main
+
+# Push vers perso.git
+git push -u perso main
+
