@@ -25,7 +25,7 @@ git add .
 
 # Commit les changements
 echo "Création du commit..."
-git commit -m "Update portfolio: responsive design improvements for mobile and tablet" || echo "Aucun changement à committer"
+git commit -m "Update portfolio: responsive header and mobile improvements" || echo "Aucun changement à committer"
 
 # S'assurer qu'on est sur la branche main
 git branch -M main

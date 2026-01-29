@@ -25,7 +25,7 @@ git add .
 
 REM Commit les changements
 echo Creation du commit...
-git commit -m "Update portfolio: responsive design improvements for mobile and tablet"
+git commit -m "Update portfolio: responsive header and mobile improvements"
 if errorlevel 1 (
     echo Aucun changement a committer
 )
