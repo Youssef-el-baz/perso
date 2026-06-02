@@ -1,6 +1,5 @@
 # Portfolio Youssef EL BAZ
 
-Technologies Utilisées
 
 ### Frontend
 - HTML5 : Structure sémantique et accessible
